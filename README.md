@@ -5,16 +5,16 @@
 * Node.js
 * React
 * Firebase
-* NPM
+* Yarn
 * Canva
 
 ## Try it yourself!
-In the project directory, install npm dependencies:
+In the project directory, install dependencies:
 
-    npm install
+    yarn
 
 Run the app
 
-    npm start
+    yarn start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
