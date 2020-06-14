@@ -1,0 +1,28 @@
+/* .signup-input{
+    justify-Content: 'space-between';
+} */
+
+.signup-logo{
+    color: #fff;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+/* style={{color: '#fff', marginTop:20, marginBottom:20}} */
+
+
+.email{
+    margin-left: 60px;
+    color: #fff;
+}
+
+.pwd{
+    margin-left: 30px;
+}
+
+.signup-button{
+    margin-left: 107px;
+    height: 150%;
+    width: 30%;
+} 
+
+

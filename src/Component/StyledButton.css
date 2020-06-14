@@ -1,0 +1,18 @@
+.s-button-link{
+    text-decoration: none;
+    width: 40vw;
+    padding: 3vh;
+    text-align: center;
+    border-radius: 6vh;
+    font-size: 4.6vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .s-button-link{
+        width: 15vw;
+        padding: 1vh;
+        text-align: center;
+        border-radius: 4vh;
+        font-size: 20px
+    }
+}

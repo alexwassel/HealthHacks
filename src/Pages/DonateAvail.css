@@ -1,0 +1,10 @@
+.footer-hints{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    bottom: 6.5vh;
+}

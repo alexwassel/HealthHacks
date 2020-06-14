@@ -1,0 +1,42 @@
+
+.donation-type > form {
+    width: 70vw;
+    max-width: 500px;
+    margin-top: 30vh;
+}
+
+.donation-type > form > label {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vh;
+    font-size: 18px;
+    color: white;
+}
+
+.donation-type > form > input:not([type=submit]) {
+    width: 40%;
+}
+
+.donation-type > form > input[type=submit] {
+    margin-top: 1vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .donation-type > form {
+        width: 80vw;
+        max-width: 650px;
+        padding: 5vh;
+    }
+
+    .donation-type > form > label {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1vh;
+        font-size: 18px;
+        color: white;
+    }
+
+    .donation-type > form > input:not([type=submit]) {
+        width: 60%;
+    }
+}

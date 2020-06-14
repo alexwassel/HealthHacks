@@ -1,0 +1,95 @@
+.hospital-info > h1, .hospital-info > h4, .hospital-info > ul > li{
+    color: white;
+}
+
+.hospital-info > h1{
+    font-size: 40px;
+    color: white;
+    margin: 0.5vh 0;
+}
+
+.hospital-info > span{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 4.5vh 40px;
+}
+
+.hospital-info > ul {
+    width: 80vw;
+}
+
+.hospital-info > .row > a{
+    padding: 1vh;
+}
+
+.hospital-info > ul > li {
+    font-size: 20px;
+    color: white;
+}
+
+.hospital-info {
+    justify-content: center !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 600px) {
+    .hospital-info {
+        max-width: 800px;
+        margin: auto;
+        justify-content: space-around !important;
+    }
+
+    .hospital-info > img{
+        padding-left: 50px;
+    }
+
+    .hospital-info > h1, .hospital-info > h4, .hospital-info > ul > li{
+        color: white;
+    }
+
+    .hospital-info > h1{
+        font-size: 40px;
+        color: white;
+        margin: 0;
+        padding: 20px 0 0;
+    }
+
+    .hospital-info > span{
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 0;
+    }
+
+    .hospital-info > ul {
+        width: 50%;
+    }
+
+    .hospital-info > ul > li {
+        font-size: 24px;
+        color: white;
+    }
+
+    .hospital-info > .row > a{
+        padding: 1vh 4vh;
+    }
+
+    .hospital-info > .row{
+        padding-bottom: 50px;
+    }
+
+    .row {
+        width: unset;
+        display: unset;
+        padding: 7.5vh 40px 4.5vh 40px;
+    }
+}

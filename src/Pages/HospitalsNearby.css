@@ -1,0 +1,37 @@
+.image-container{
+    width: 80vw;
+    height: 65vh;
+    overflow: scroll;
+    position: relative;
+}
+
+.big-map{
+    height: 1000px;
+}
+
+@media only screen and (min-width: 600px) {
+    .big-map{
+        height: 1300px;
+    }
+    .image-container{
+        position: absolute;
+        top: 0;
+        bottom: -17px;
+        left: 0;
+        right: -17px;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        width: unset;
+        height: unset;
+    }
+    .image-container:hover{
+        cursor: grab;
+    }
+    .no-scroll-bars{
+        overflow: hidden;
+        width: 80vw;
+        max-width: 800px;
+        height: 80vh;
+        position: relative;
+    }
+}
