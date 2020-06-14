@@ -6,7 +6,7 @@ import './App.css';
 function App() {
     return (
         <UserProvider>
-            <Application/>
+            <Application />
         </UserProvider>
     );
 }

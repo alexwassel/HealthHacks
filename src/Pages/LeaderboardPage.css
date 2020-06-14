@@ -1,0 +1,42 @@
+/* .leaderboard {
+	width: 70vw;
+	max-width: 500px;
+	margin-top: 30vh;
+	background-color: black;
+}
+
+.leaderboard > label {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1vh;
+	font-size: 18px;
+	color: white;
+}
+
+.leaderboard > input:not([type="submit"]) {
+	width: 40%;
+}
+
+.leaderboard > input[type="submit"] {
+	margin-top: 1vh;
+}
+
+@media only screen and (min-width: 600px) {
+	.leaderboard > form {
+		width: 80vw;
+		max-width: 650px;
+		padding: 5vh;
+	}
+
+	.leaderboard > label {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 1vh;
+		font-size: 18px;
+		color: white;
+	}
+
+	.leaderboard > form > input:not([type="submit"]) {
+		width: 60%;
+	}
+} */
